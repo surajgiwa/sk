@@ -1,0 +1,33 @@
+.css1{
+  background-color:white;
+  font-size:50px;
+  font-family: georgia;
+  font-style:italic;
+  font-weight:bold;
+  color:black;
+  text-shadow: 2px 2px 8px #200f0f;
+}
+
+.css2{
+  color:black;
+  background-color:white;
+  font-size:30px;
+  font-family: Leelawadee UI Semilight;
+  font-style:italic;
+  font-weight:600;
+  letter-spacing: 3px;
+}
+
+.css3{
+  background-color:rgb(159, 233, 243);
+  border: 5px solid;
+  border-radius: 10px;
+}
+
+.css4{
+  color:rgb(146, 3, 101);
+  font-style: italic;
+  font-family: Georgia;
+  font-weight:bold;
+  word-spacing:2px;
+}

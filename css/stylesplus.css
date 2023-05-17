@@ -1,0 +1,90 @@
+<style type="text/css">
+    #carbonads * {
+      margin: initial;
+      padding: initial;
+      line-height: initial;
+    }
+       
+    #carbonads {
+      --carbon-font-family: -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+        'Helvetica Neue', Helvetica, Arial, sans-serif;
+      --carbon-font-size: 14px;
+      --carbon-padding: 1.5ch;
+      --carbon-max-char: 20ch;
+      --carbon-bg-primary: hsl(0, 0%, 98%);
+      --carbon-bg-secondary: hsl(0, 0%, 92%);
+      --carbon-text-color: hsl(0, 0%, 20%);
+      z-index: 10;
+      font-size: var(--carbon-font-size);
+      font-family: var(--carbon-font-family);
+    }
+    
+    #carbonads > span {
+      display: flex;
+      flex-direction: column;
+      min-inline-size: 130px;
+      max-inline-size: calc(
+        130px + var(--carbon-max-char) + 8ch
+      );
+      padding: var(--carbon-padding);
+      gap: var(--carbon-padding);
+      background-color: var(--carbon-bg-primary);
+      box-shadow: 0 0 1px hsl(0deg 0% 0% / 0.085),
+        0 0 2px hsl(0deg 0% 0% / 0.085),
+        0 0 4px hsl(0deg 0% 0% / 0.085),
+        0 0 8px hsl(0deg 0% 0% / 0.085);
+    }
+    
+    #carbonads a {
+      color: var(--carbon-text-color);
+      text-decoration: none;
+    }
+    
+    #carbonads a:hover {
+      color: var(--carbon-text-color);
+    }
+    
+    #carbonads .carbon-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5ex;
+    }
+    
+    #carbonads .carbon-img {
+      flex: 0 0 130px;
+    }
+    
+    #carbonads .carbon-img img {
+      display: block;
+    }
+    
+    #carbonads .carbon-text {
+      flex-grow: 1;
+      flex-basis: var(--carbon-max-char);
+      line-height: 1.4;
+      text-align: left;
+    }
+    
+    #carbonads .carbon-poweredby {
+      padding: 6px 8px;
+      background: var(--carbon-bg-secondary);
+      color: var(--carbon-text-color);
+      font-weight: 600;
+      font-size: 0.6em;
+      line-height: 1.4;
+      letter-spacing: 0.2ch;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      #carbonads {
+        --carbon-bg-primary: hsl(0, 0%, 12%);
+        --carbon-bg-secondary: hsl(0, 0%, 15%);
+        --carbon-text-color: hsl(0, 0%, 90%);
+      }
+    }
+    </style>
+    <script nonce="fd46fae1-25f2-43b8-9b03-a0967b32128a">(function(w,d){!function(bg,bh,bi,bj){bg[bi]=bg[bi]||{};bg[bi].executed=[];bg.zaraz={deferred:[],listeners:[]};bg.zaraz.q=[];bg.zaraz._f=function(bk){return function(){var bl=Array.prototype.slice.call(arguments);bg.zaraz.q.push({m:bk,a:bl})}};for(const bm of["track","set","debug"])bg.zaraz[bm]=bg.zaraz._f(bm);bg.zaraz.init=()=>{var bn=bh.getElementsByTagName(bj)[0],bo=bh.createElement(bj),bp=bh.getElementsByTagName("title")[0];bp&&(bg[bi].t=bh.getElementsByTagName("title")[0].text);bg[bi].x=Math.random();bg[bi].w=bg.screen.width;bg[bi].h=bg.screen.height;bg[bi].j=bg.innerHeight;bg[bi].e=bg.innerWidth;bg[bi].l=bg.location.href;bg[bi].r=bh.referrer;bg[bi].k=bg.screen.colorDepth;bg[bi].n=bh.characterSet;bg[bi].o=(new Date).getTimezoneOffset();if(bg.dataLayer)for(const bt of Object.entries(Object.entries(dataLayer).reduce(((bu,bv)=>({...bu[1],...bv[1]})))))zaraz.set(bt[0],bt[1],{scope:"page"});bg[bi].q=[];for(;bg.zaraz.q.length;){const bw=bg.zaraz.q.shift();bg[bi].q.push(bw)}bo.defer=!0;for(const bx of[localStorage,sessionStorage])Object.keys(bx||{}).filter((bz=>bz.startsWith("_zaraz_"))).forEach((by=>{try{bg[bi]["z_"+by.slice(7)]=JSON.parse(bx.getItem(by))}catch{bg[bi]["z_"+by.slice(7)]=bx.getItem(by)}}));bo.referrerPolicy="origin";bo.src="/z1/s.js?z="+btoa(encodeURIComponent(JSON.stringify(bg[bi])));bn.parentNode.insertBefore(bo,bn)};["complete","interactive"].includes(bh.readyState)?zaraz.init():bg.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,"zarazData","script");})(window,document);</script></head>
+    

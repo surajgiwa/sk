@@ -1,53 +1,88 @@
 header {
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+header .Website-Logo img {
+  height: 50px; /* Adjust the height as needed */
+}
+
+.navbar {
+  background-color: black;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 10px; /* Adjust the margin as needed */
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  font-weight: 500;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: red;
+  background-color: greenyellow;
+}
+
+.marquee-container {
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.marquee {
+  width: 100%;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
   }
   
-  header .Website-Logo img {
-    height: 50px; /* Adjust the height as needed */
-  }
-  .navbar {
-    background-color: black;
+  nav {
+    display: none;
   }
   
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  nav li {
-    margin-left: 10px; /* Adjust the margin as needed */
-  }
-  
-  nav li a {
+  .navbar-toggle {
+    display: block;
     color: white;
-    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
   }
   
+  .navbar-collapse {
+    display: none;
+    margin-top: 10px;
+  }
   
+  .navbar-collapse.active {
+    display: block;
+  }
+  
+  .navbar-nav {
+    flex-direction: column;
+  }
   
   .navbar-nav .nav-link {
-    color: white;
-    font-weight: 500;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
+    margin-bottom: 5px;
   }
-  
-  .navbar-nav .nav-link:hover {
-    color: red;
-    background-color: greenyellow;
-  }
-  
-  .marquee-container {
-    margin-top: 20px; /* Adjust the margin as needed */
-  }
-  
-  .marquee {
-    width: 100%;
-  }
-  
+}

@@ -11,7 +11,7 @@ header .Website-Logo img {
 }
 
 .navbar {
-  background-color: gray;
+  background-color: black;
 }
 
 nav ul {
@@ -59,7 +59,7 @@ nav li a {
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column; /* Change the flex direction to vertical */
-    align-items: flex-start; /* Align items to the left side */
+    align-items: flex-end; /* Align items to the left side */
   }
 
   nav {

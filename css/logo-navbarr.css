@@ -59,10 +59,11 @@ nav li a {
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column; /* Change the flex direction to vertical */
-    align-items: flex-end; /* Align items to the left side */
+    align-items: flex-start; /* Align items to the left side */
   }
 
   nav {
     margin-top: 10px; /* Adjust the margin as needed */
+    ;
   }
 }

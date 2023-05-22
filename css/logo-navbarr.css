@@ -52,15 +52,13 @@ nav li a {
 
 /* Add a media query for screens with a maximum width of 768 pixels (typical for mobile devices) */
 @media screen and (max-width: 768px) {
-  nav ul {
+  header {
     flex-direction: column; /* Change the flex direction to vertical */
+    align-items: flex-start; /* Align items to the left side */
   }
 
-  nav li {
-    margin: 5px 0; /* Adjust the margin for vertical spacing */
-  }
-
-  .navbar-nav .nav-link {
-    font-size: 14px; /* Reduce the font size for better visibility */
+  nav {
+    margin-top: 10px; /* Adjust the margin as needed */
   }
 }
+

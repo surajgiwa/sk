@@ -11,7 +11,7 @@ header .Website-Logo img {
 }
 
 .navbar {
-  background-color: black;
+  background-color: gray;
 }
 
 nav ul {
@@ -45,6 +45,7 @@ nav li a {
 .navbar-toggler-icon {
   color: white !important;
 }
+
 
 .marquee-container {
   margin-top: 20px; /* Adjust the margin as needed */

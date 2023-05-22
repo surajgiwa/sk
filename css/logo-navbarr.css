@@ -61,11 +61,4 @@ nav li a {
     margin-top: 10px; /* Adjust the margin as needed */
   }
 }
-/* Paging navigation fix: remove after next theme update */
-
-@media (max-width: 64rem) {
-	.resp .paging-navigation .page-numbers {
-		display: inline-block;
-	}
-}
 

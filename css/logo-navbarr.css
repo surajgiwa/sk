@@ -42,6 +42,10 @@ nav li a {
   background-color: greenyellow;
 }
 
+.navbar-toggler-icon {
+  color: white !important;
+}
+
 .marquee-container {
   margin-top: 20px; /* Adjust the margin as needed */
 }
@@ -61,4 +65,3 @@ nav li a {
     margin-top: 10px; /* Adjust the margin as needed */
   }
 }
-

@@ -28,29 +28,7 @@ header {
     color: white;
     text-decoration: none;
   }
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    color: black;
-    background-color: lightblue;
-    min-width: 15em;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-  }
-  .dropdown:hover .dropdown-content { display: block; }
   
-  a { text-decoration: none; font-size: 1.2em; display: inline-block;  }
-  a:hover { color: white; background-color: blue; }
-  
-   @media (max-width: 40em) {
-     .menu li div { width: 100%; }
-     .menu li { width: 100%; }
-   }  
   
   
   .navbar-nav .nav-link {

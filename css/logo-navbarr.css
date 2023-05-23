@@ -46,7 +46,6 @@ nav li a {
   color: white !important;
 }
 
-
 .marquee-container {
   margin-top: 20px; /* Adjust the margin as needed */
 }
@@ -62,8 +61,36 @@ nav li a {
     align-items: flex-start; /* Align items to the left side */
   }
 
+  .Website-Logo {
+    order: -1; /* Move the logo to the beginning */
+  }
+  
   nav {
     margin-top: 10px; /* Adjust the margin as needed */
-    ;
+    align-self: flex-end; /* Align the menu to the right side */
+  }
+
+  .mobile-menu-toggle {
+    display: none; /* Hide the regular menu items on mobile */
+  }
+  
+  .navbar-toggler {
+    margin-top: 10px; /* Adjust the margin as needed */
+    position: relative;
+  }
+  
+  .navbar-toggler-icon {
+    margin-bottom: 5px; /* Add margin below the menu icon */
+  }
+  
+  .menu-text {
+    display: block;
+    color: white;
+    font-size: 12px;
+    text-align: center; /* Center the "Menu" text */
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
